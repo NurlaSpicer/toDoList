@@ -36,7 +36,7 @@ public class AppConfig {
             driver.setDriverClassName("org.postgresql.Driver");
             driver.setUrl("jdbc:postgresql://localhost:5432/Sagyndykov");
             driver.setUsername("postgres");
-            driver.setPassword("Nurik-2018");
+            driver.setPassword("");
             return driver;
         } catch (Exception e) {
             logger.error("Embedded DataSource bean cannot be created!", e);
